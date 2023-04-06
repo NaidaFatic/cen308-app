@@ -7,7 +7,7 @@ Online version of the pharmacy.
 
 - ❌ https://pharmacy-dfr2g.ondigitalocean.app/login.html 🔴
 - ❌ https://pharmacy-naida.herokuapp.com/login.html 🔴
-- ✔ https://mirzanaidase.herokuapp.com/login.html 🟢
+- ✔ https://cen308.onrender.com/login.html 🟢
 
 Build using:
 
