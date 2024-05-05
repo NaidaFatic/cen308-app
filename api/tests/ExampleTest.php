@@ -2,11 +2,16 @@
 require './api/dao/TestDao.class.php';
 require_once('./vendor/autoload.php');
 
+use GuzzleHttp\Client;
+use GuzzleHttp\Handler\MockHandler;
+use GuzzleHttp\HandlerStack;
+use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 class testExample extends TestCase
 {
     private $testDao;
+
     protected function setUp(): void
     {
         $this->testDao = new TestDao();
