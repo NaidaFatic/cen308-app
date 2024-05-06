@@ -1,6 +1,6 @@
 # Pharmacy
 
-This is a project for the CEN308 SE course.
+This is a project for the CEN 308 SE course.
 
 This web site can sell, buy, post, pick medicine.
 Online version of the pharmacy.
