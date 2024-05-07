@@ -14,7 +14,7 @@ class testExampleHttp extends TestCase
     protected function setUp(): void
     {
         $mock = new MockHandler([
-            new Response(200, [], json_encode(['medicines' => 'online'])),
+            new Response(200, [], json_encode(['medicines' => ''])),
         ]);
 
         $handlerStack = HandlerStack::create($mock);
